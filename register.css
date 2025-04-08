@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+  }
+header {
+    background-color: #2563eb;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .logo {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+.registration-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 25px 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #1e40af;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #1f2937;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f1f5f9;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #2563eb;
+    background-color: #fff;
+  }
+  
+  .form-button {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form-button .btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form-button .btn:hover {
+    background-color: #3b82f6;
+  }
+  

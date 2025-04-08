@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+  }
+  header {
+    background-color: #2563eb;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .logo {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+ 
+ /*About Section*/
+ .about {
+    padding: 80px 40px;
+    background-color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    color: #1e40af;
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .about-block {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    max-width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-block:hover {
+    transform: translateY(-10px);
+  }
+  
+  .about-block img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .about-block h3 {
+    font-size: 22px;
+    color: #1f2937;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .about-block p {
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.6;
+  }

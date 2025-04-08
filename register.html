@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Student Navigator</div>
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="#">About</a>
+          <a href="#">Register</a>
+          <a href="#">Colleges</a>
+          
+        </nav>
+      </header>
+    <div class="registration-container">
+    <h2 class="form-title">Student Registration</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+  
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="">Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="college">College Name</label>
+        <input type="text" id="college" placeholder="Enter college name" />
+      </div>
+  
+      <div class="form-group">
+        <label for="group">Group</label>
+        <select id="group">
+          <option value="">Select</option>
+          <option>PCM</option>
+          <option>PCB</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="">Select</option>
+          <option>Open</option>
+          <option>OBC</option>
+          <option>SC</option>
+          <option>ST</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="percentage">12th %</label>
+        <input type="number" id="percentage" placeholder="e.g. 85.6" />
+      </div>
+  
+      <div class="form-group">
+        <label for="cet">MHT-CET Percentile</label>
+        <input type="number" id="cet" placeholder="e.g. 95.2" />
+      </div>
+  
+      <div class="form-button">
+        <button type="submit" class="btn">Show Eligible Colleges</button>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
+
